@@ -1,9 +1,38 @@
 .select {
+    width: 180px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+    appearance: none;
+}
+
+.selectWrapper {
+    position: relative;
+}
+
+.selectWrapper:after {
+    content: "";
+    position: absolute;
+    display:block;
+    right: 0;
+    top: 0;
+    background-image: url("chevron-down.svg");
+    height: 25px;
+    width: 25px;
+    pointer-events: none;
+
+}
+
+.active {
+    transform: rotate(180deg);
+    transition: 0.3s;
 }
 
 .select:focus {
+
 }
 
-
 .option:hover {
+
 }
