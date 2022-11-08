@@ -1,23 +1,37 @@
 .item {
+
 }
 
 .item:last-of-type {
 }
 
 .users {
+    margin: 23px 0 0 70px;
+    width: 606px;
+    height: 36px;
 }
 
 .buttonsContainer {
+    margin: 38px 0 0 300px;
 }
 
 .container {
 }
 
-.thead {
+.thead tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 606px;
+    background: #E5E5E5;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .nameCol {
+    display: block;
 }
 
 .ageCol {
+    display: block;
 }
